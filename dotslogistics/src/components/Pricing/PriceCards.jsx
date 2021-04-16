@@ -45,14 +45,14 @@ function PriceCards() {
                   justifyContent: "center",
                   display: "grid",
                   textAlign: "center",
-                  height: 500,
+                  height: 600,
                 }}
               >
                 <CardContent>
                   <img src={Price1} style={{ width: 160 }} />
                   <h2>BRONZE</h2>
 
-                  <p style={{ paddingBottom: 50, paddingTop: 60 }}>
+                  <p style={{ paddingBottom: 68, paddingTop: 0, fontSize: 24 }}>
                     Access to marketplace to find and connect with potential
                     partners, request quotes, we take 3% commission on all
                     transactions and 10% commission from discounts by promotions
@@ -75,14 +75,14 @@ function PriceCards() {
                   justifyContent: "center",
                   display: "grid",
                   textAlign: "center",
-                  height: 500,
+                  height: 600,
                 }}
               >
                 <CardContent>
                   <img src={Price2} style={{ width: 180 }} />
 
                   <h2>SILVER</h2>
-                  <p>
+                  <p style={{ fontSize: 24 }}>
                     Bronze + access to company analytics, market insights,
                     business partner recommendations, route optimization
                   </p>
@@ -105,14 +105,14 @@ function PriceCards() {
                   justifyContent: "center",
                   display: "grid",
                   textAlign: "center",
-                  height: 500,
+                  height: 600,
                 }}
               >
                 <CardContent>
                   <img src={Price3} style={{ width: 180 }} />
 
                   <h2>GOLD</h2>
-                  <p>
+                  <p style={{ fontSize: 24 }}>
                     Bronze + our consulting service offered by industry
                     professionals
                   </p>

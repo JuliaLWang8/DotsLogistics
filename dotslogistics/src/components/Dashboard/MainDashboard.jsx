@@ -72,7 +72,7 @@ export default function MainDashboard() {
     <div className={classes.root}>
       <Grid container spacing={3}>
         <Grid container xs={3.5} className={classes.container2}>
-          <Grid item xs={6} style={{ textAlign: "left" }}>
+          <Grid item xs={6} style={{ textAlign: "left", padding: 20 }}>
             <h2>Goods in Transit</h2>
             <h4> 240 of total 500 </h4>
           </Grid>
@@ -89,7 +89,7 @@ export default function MainDashboard() {
         </Grid>
 
         <Grid container xs={3.5} className={classes.container2}>
-          <Grid item xs={6} style={{ textAlign: "left" }}>
+          <Grid item xs={6} style={{ textAlign: "left", padding: 20 }}>
             <h2>Volume of</h2>
             <h4> in 000s</h4>
           </Grid>
@@ -106,7 +106,7 @@ export default function MainDashboard() {
         </Grid>
 
         <Grid container xs={3.5} className={classes.container2}>
-          <Grid item xs={6} style={{ textAlign: "left" }}>
+          <Grid item xs={6} style={{ textAlign: "left", padding: 20 }}>
             <h2>Contracts Signed</h2>
             <h4> 150 of total 326 </h4>
           </Grid>

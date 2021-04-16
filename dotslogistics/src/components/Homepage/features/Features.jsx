@@ -22,19 +22,19 @@ export default class Features extends Component {
           <div className="block">
             <img src={Image1} className="image1" alt="image1" />
             <h1>Redefined Collaboration</h1>
-            <p>{this.state.quote1}</p>
+            <p style={{ fontSize: 20 }}>{this.state.quote1}</p>
           </div>
 
           <div className="block">
             <img src={Image2} className="image2" alt="image2" />
             <h1>Low Cost</h1>
-            <p>{this.state.quote2}</p>
+            <p style={{ fontSize: 20 }}>{this.state.quote2}</p>
           </div>
 
           <div className="block">
             <img src={Image3} className="image3" alt="image3" />
             <h1>Premium Analytics</h1>
-            <p>{this.state.quote3}</p>
+            <p style={{ fontSize: 20 }}>{this.state.quote3}</p>
           </div>
         </div>
       </React.Fragment>

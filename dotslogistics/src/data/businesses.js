@@ -25,7 +25,7 @@ const businesses = [
         review: "Lorem ipsum",
       },
     ],
-    rating: 3,
+    rating: 5,
     numPartners: 4,
     category: "shipper",
   },
